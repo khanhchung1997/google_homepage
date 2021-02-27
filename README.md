@@ -1,0 +1,1 @@
+Clone Google homepage using only HTML and CSS for education purpose.
