@@ -1,0 +1,95 @@
+body {
+  font-size: 14px;
+  font-family: arial,sans-serif
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  margin: 12px 10px 12px 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #70757a;
+  padding: 17px 14px 17px 14px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+}
+
+footer div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: relative;
+  right: 63%;
+  margin: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);;
+  border-radius: 35px;
+  height: 40px;
+  width: 200%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.button a {
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 27px 10px 27px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
